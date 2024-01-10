@@ -27,6 +27,19 @@ Developing a machine learning classification model which predicts the Status: WO
 
 Creating a Streamlit page where you can insert each column value and get the Selling_Price predicted value or Status (Won/Lost).
 
+Requirements :
+
+This project requires the following libraries to be installed:
+
+NumPy
+
+Pandas
+
+Scikit-learn
+
+Streamlit
+
+
 
 
 
