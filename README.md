@@ -1,45 +1,3 @@
-Industrial-Copper-Modeling-Project
-
-Introduction :
-
-This project aims to develop two machine learning models for the copper industry to address the challenges of predicting selling price and lead classification. 
-Manual predictions can be time-consuming and may not result in optimal pricing decisions or accurately capture leads.
-The models will utilize advanced techniques such as data normalization, outlier detection and handling, handling data in the wrong format, 
-identifying the distribution of features, and leveraging tree-based models, specifically the random forest  algorithm, to predict the selling price and leads accurately.
-
-Regression model details:
-The copper industry deals with less complex data related to sales and pricing. However, this data may suffer from issues such as skewness and noisy data, which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, outlier detection and handling, handling data in wrong format, identifying the distribution of features, and leveraging tree-based models, specifically the random forest  algorithm  algorithm.
-
-Classification model details:
-Another area where the copper industry faces challenges is in capturing the leads. A lead classification model is a system for evaluating and classifying leads based on how likely they are to become a customer. You can use the STATUS variable with WON being considered as Success and LOST being considered as Failure and remove data points other than WON, LOST STATUS values.
-
-Solution:
-
-he solution includes the following steps:
-
-Exploring skewness and outliers in the dataset.
-
-Transforming the data into a suitable format and performing any necessary cleaning and pre-processing steps.
-
-Developing a machine learning regression model which predicts the continuous variable 'Selling_Price' using the  random forest regressor.
-
-Developing a machine learning classification model which predicts the Status: WON or LOST using the  random foresclassifier.
-
-Creating a Streamlit page where you can insert each column value and get the Selling_Price predicted value or Status (Won/Lost).
-
-Requirements :
-
-This project requires the following libraries to be installed:
-
-NumPy
-
-Pandas
-
-Scikit-learn
-
-Streamlit
-
-
 
 
 # Industrial Copper Modeling
@@ -47,17 +5,6 @@ Streamlit
 **Introduction**
 
 Enhance your proficiency in data analysis and machine learning with our "Industrial Copper Modeling" project. In the copper industry, dealing with complex sales and pricing data can be challenging. Our solution employs advanced machine learning techniques to address these challenges, offering regression models for precise pricing predictions and lead classification for better customer targeting. You'll also gain experience in data preprocessing, feature engineering, and web application development using Streamlit, equipping you to solve real-world problems in manufacturing.
-
-
-**Table of Contents**
-
-1. Key Technologies and Skills
-2. Installation
-3. Usage
-4. Features
-5. Contributing
-6. License
-7. Contact
 
 
 **Key Technologies and Skills**
@@ -69,31 +16,6 @@ Enhance your proficiency in data analysis and machine learning with our "Industr
 - Seaborn
 - Pickle
 - Streamlit
-
-
-**Installation**
-
-To run this project, you need to install the following packages:
-
-```python
-pip install numpy
-pip install pandas
-pip install scikit-learn
-pip install xgboost
-pip install matplotlib
-pip install seaborn
-pip install streamlit
-```
-
-**Usage**
-
-To use this project, follow these steps:
-
-1. Clone the repository: ```git clone https://github.com/gopiashokan/Industrial-Copper-Modeling.git```
-2. Install the required packages: ```pip install -r requirements.txt```
-3. Run the Streamlit app: ```streamlit run app.py```
-4. Access the app in your browser at ```http://localhost:8501```
-
 
 **Features**
 
@@ -114,7 +36,7 @@ To use this project, follow these steps:
 
 **Exploratory Data Analysis (EDA) and Feature Engineering:**
 
-- **Skewness Visualization**: To enhance data distribution uniformity, we visualize and correct skewness in continuous variables using `Seaborn's Histplot and Violinplot`. By applying the Log Transformation method, we achieve improved balance and normal distribution, while ensuring data integrity.
+- **Skewness Visualization**: To enhance data distribution uniformity, we visualize and correct skewness in continuous variables using `Seaborn's Histplot . By applying the Log Transformation method, we achieve improved balance and normal distribution, while ensuring data integrity.
 
 - **Outlier Visualization**: We identify and rectify outliers by leveraging `Seaborn's Boxplot`. This straightforward visualization aids in pinpointing outlier-rich features. Our chosen remedy is the Interquartile Range (IQR) method, which brings outlier data points into alignment with the rest of the dataset, bolstering its resilience.
 
@@ -157,16 +79,8 @@ To use this project, follow these steps:
 
 Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
 
-
-**License**
-
-This project is licensed under the MIT License. Please review the LICENSE file for more details.
-
-
 **Contact**
 
-📧 Email: gopiashokankiot@gmail.com 
-
-🌐 LinkedIn: [linkedin.com/in/gopiashokan](https://www.linkedin.com/in/gopiashokan)
+📧 Email: thangamani1128@gmail.com 
 
 For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.
